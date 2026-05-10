@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Support — Baby Days</title>
+<meta name="description" content="Help and contact for Baby Days." />
+<style>
+  :root { --coral: #FF8A65; --coral-dark: #E66A45; --ink: #1F1B16; --muted: #6B6660; --bg: #FFF7F2; --card: #FFFFFF; --line: #F1E6DC; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink); background: var(--bg); line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--coral-dark); }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  h1 { font-size: clamp(28px, 4vw, 36px); margin: 0 0 8px; letter-spacing: -0.01em; }
+  h2 { font-size: 20px; margin: 40px 0 12px; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 48px 0; }
+  nav.top a { color: var(--muted); margin-right: 16px; font-size: 14px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 24px 0;
+  }
+  .contact-card a {
+    display: inline-block;
+    background: var(--coral);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  .contact-card a:hover { background: var(--coral-dark); }
+  details {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: "+ "; color: var(--coral); }
+  details[open] summary::before { content: "− "; }
+  details p { margin: 12px 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="top">
+  <a href="/">Home</a>
+  <a href="/privacy.html">Privacy</a>
+  <a href="/terms.html">Terms</a>
+  <a href="/support.html">Support</a>
+</nav>
+
+<h1>Support</h1>
+<p class="meta">Real human, fast replies. I'm a parent too — I get it.</p>
+
+<div class="contact-card">
+  <strong>Email me directly</strong>
+  <p style="margin: 8px 0 0; color: var(--muted);">Best for anything specific to your account, a bug you're seeing, or a refund question. I usually reply within 1–2 business days.</p>
+  <a href="mailto:pabs642@gmail.com?subject=Baby%20Days%20Support">pabs642@gmail.com</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+  <summary>How do I record a voice entry?</summary>
+  <p>Open the timeline tab, tap the mic button, grant Microphone and Speech Recognition permission the first time, and start talking. When you stop, you'll see the transcript and can edit it before saving. The original audio is preserved alongside the text.</p>
+</details>
+
+<details>
+  <summary>Where is my audio stored? Does it leave my phone?</summary>
+  <p>Your audio stays on your device. Transcription runs on-device using Apple's Speech framework — audio is never sent to me, to Apple's transcription servers, or to any third party. If you have iCloud enabled, your entries (including audio files) sync to your <em>private</em> iCloud container. I cannot read it. See the <a href="/privacy.html">Privacy Policy</a> for details.</p>
+</details>
+
+<details>
+  <summary>I bought Pro but it's not unlocked. How do I restore?</summary>
+  <p>Open Settings inside Baby Days and tap <strong>Restore Purchases</strong>. Make sure you're signed in to the same Apple ID you used to buy. If that doesn't work, fully quit the app and reopen, then try again. Still stuck? Email me with your Apple ID region (e.g., "US App Store") and I'll help.</p>
+</details>
+
+<details>
+  <summary>Can I share Pro with my family?</summary>
+  <p>Yes. Family Sharing is enabled. Anyone in your Apple Family Sharing group can install Baby Days and use the Pro features without paying again. They'll need to be signed in with their own Apple ID, with Family Sharing turned on for purchases.</p>
+</details>
+
+<details>
+  <summary>How do I get a refund?</summary>
+  <p>All purchases are processed by Apple, so refunds go through them. Visit <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in, find Baby Days, and request a refund. Apple decides eligibility based on their policy. I'll happily vouch for you if you tell me what went wrong — email <a href="mailto:pabs642@gmail.com">pabs642@gmail.com</a>.</p>
+</details>
+
+<details>
+  <summary>How do I delete my data?</summary>
+  <p>To delete a single entry, swipe it in the timeline. To delete a child profile and everything in it, open the profile and tap Delete. To wipe everything, uninstall the app, then go to <strong>iOS Settings → Apple ID → iCloud → Manage Account Storage → Baby Days → Delete Data</strong>. Because I have no copy on any server, those steps are sufficient — but I'm happy to walk you through it if anything is unclear.</p>
+</details>
+
+<details>
+  <summary>I lost my phone / got a new phone. Are my entries safe?</summary>
+  <p>If you had iCloud sync enabled, yes. Sign in to the same Apple ID on your new device, install Baby Days, and your entries (including audio) will sync down. If iCloud was disabled, the data lived only on the lost phone, and unfortunately there's no way to recover it. I strongly recommend keeping iCloud enabled.</p>
+</details>
+
+<details>
+  <summary>The app is asking for Microphone / Speech Recognition / Photos permission. Why?</summary>
+  <p><strong>Microphone</strong> is required to record audio. <strong>Speech Recognition</strong> is required so we can transcribe your audio on-device. <strong>Photos</strong> is optional — only used if you choose to attach a photo to an entry or milestone. You can revoke any of these at any time in iOS Settings → Privacy &amp; Security; the app will gracefully handle it.</p>
+</details>
+
+<details>
+  <summary>Can I use Baby Days for more than one child?</summary>
+  <p>Yes — multiple children is a Pro feature. Each child gets their own timeline, milestone set, and collection of entries. Switch between them with a tap.</p>
+</details>
+
+<details>
+  <summary>How do I export my entries?</summary>
+  <p>With Pro, open Settings → Export Book to generate a beautifully formatted PDF of your timeline. You can also share individual entries via the share sheet (iMessage, WhatsApp, email) — Pro unlocks sharing the audio file along with the text.</p>
+</details>
+
+<details>
+  <summary>I have a feature request or found a bug.</summary>
+  <p>Please email me at <a href="mailto:pabs642@gmail.com">pabs642@gmail.com</a>. Include your iOS version and what you were doing when something broke. I read every email.</p>
+</details>
+
+<hr />
+<footer>
+  <a href="/">Home</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a><br/>
+  © 2026 Sahil Pabby
+</footer>
+
+</div>
+</body>
+</html>
